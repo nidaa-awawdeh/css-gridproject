@@ -1,0 +1,96 @@
+.container {
+    background-color: rgb(199, 251, 251);
+    display: grid;
+      /* grid-column-gap: 50px;
+         grid-row-gap: 50px; */
+          grid-gap: 50px 100px;
+     grid-template-columns: 300px  400px;
+
+    
+
+}
+
+
+.header {
+      grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgb(205, 50, 192);
+
+}
+
+ .navbar {
+       grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgb(236, 140, 15);
+  
+ }
+
+ .footer {
+
+    background-color: rgb(205, 50, 192);
+         grid-column-start: 1;
+  grid-column-end: 4;
+
+
+   margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: rgb(0, 0, 0);
+ }
+
+.aside {
+    background-color: rgb(52, 25, 228);
+}
+
+.section {
+    background-color: yellow;
+    height: 400px;
+      width: 400px;
+}
+
+.artical {
+  
+   
+      display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  text-align: center;
+  /* width: calc(100% / 3); */
+  margin: 50px;
+
+}
+
+.artical .one ,.artical .three {
+       background-color: rgb(205, 50, 192);
+}
+
+.artical .two {
+       background-color: rgb(155, 131, 153);
+}
+/* .artical .three {
+       background-color: rgb(155, 27, 95);
+} */
+
+h2{
+    margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 10px ;
+  padding: 0;
+
+
+}
+
+li {
+  float: right;
+   
+}
+
+li a {
+  display: block;
+  padding: 8px;
+    color: black;
+}
