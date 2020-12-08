@@ -1,27 +1,27 @@
+ html {
+     background-color: rgb(216, 215, 213);
+ }
+
 .container {
-    background-color: rgb(199, 251, 251);
+  
     display: grid;
       /* grid-column-gap: 50px;
          grid-row-gap: 50px; */
-          grid-gap: 50px 100px;
+          grid-gap: 20px 100px;
      grid-template-columns: 300px  400px;
-
-    
-
 }
 
-
-.header {
+#header {
       grid-column-start: 1;
-  grid-column-end: 4;
-  background-color: rgb(205, 50, 192);
+  grid-column-end: 2;
+  background-color: rgb(198, 206, 189);
 
 }
 
- .navbar {
-       grid-column-start: 1;
+#nav-bar {
+       grid-column-start: 2;
   grid-column-end: 4;
-  background-color: rgb(236, 140, 15);
+  background-color: rgb(198, 206, 189);
   
  }
 
@@ -40,11 +40,11 @@
  }
 
 .aside {
-    background-color: rgb(52, 25, 228);
+    background-color: rgb(198, 206, 189);
 }
 
 .section {
-    background-color: yellow;
+    background-color: rgb(198, 206, 189);
     height: 400px;
       width: 400px;
 }
@@ -52,12 +52,12 @@
 .artical {
   
    
-      display: flex;
+    display: flex;
   flex-direction: row;
   /* align-items: center; */
   text-align: center;
   /* width: calc(100% / 3); */
-  margin: 50px;
+  margin: 10px;
 
 }
 
@@ -78,14 +78,16 @@ h2{
 
 ul {
   list-style-type: none;
-  margin-left: 10px ;
-  padding: 0;
+  margin-left: 100px ;
+
+  padding-right: 200px;
 
 
 }
 
 li {
-  float: right;
+  float: left;
+    padding-right: 40px;
    
 }
 
@@ -93,4 +95,17 @@ li a {
   display: block;
   padding: 8px;
     color: black;
+    	text-decoration:none;
 }
+ form {
+     width: 200px;
+     height: 120px;
+      margin-left: 90px;
+      margin-top: 20px;
+      border: solid 5px rgb(238, 238, 238);
+      padding: 30px;
+ }
+
+ iframe {
+     margin-left: 30px;
+ }
