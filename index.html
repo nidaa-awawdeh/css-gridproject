@@ -7,21 +7,25 @@
     <link  href="style.css" rel="stylesheet" >
 </head>
 <body>
- 
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div class="container">
-        <header class="header"> <img width="150px" height="100px" id="header-img"
-            src=" https://mostaql.hsoubcdn.com/uploads/530270-8I7aa-1556371888-5cc459b0510a5.jpg" alt="logo"></header>
-        <nav class="navbar">
+        <header id="header">
+             <img width="150px" height="100px" id="header-img"
+            src=" https://mostaql.hsoubcdn.com/uploads/530270-8I7aa-1556371888-5cc459b0510a5.jpg" alt="logo">
+        Product Market
+        </header>
+        <nav id="nav-bar">
 <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a class="nav-link"  href="#productmarket">ProductMarket</a></li>
+    <li><a class="nav-link"  href="#features">Features</a></li>
+    <li><a  class="nav-link"  href="#contact">Contact</a></li>
+    <li><a  class="nav-link" href="#price">price</a></li>
 </ul>
 
         </nav>
-        <section class="section">section
-            <article class="artical">
+        <section class="section">
+            <p> This is landing page to help people to learn How To Find Product Market Fit </p> 
+            <article class="artical"  id="price">
                 <div class="one">
                     VALVE TROMBONE
                  <h2>$600</h2>
@@ -64,27 +68,40 @@
            
             
         </section>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/0LNQxT9LvM0">
+        <iframe  id="video" width="420" height="315" src="https://www.youtube.com/embed/0LNQxT9LvM0">
         
         </iframe>
         <aside class="aside">
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <label for="email">Enter your email:</label>
+                <br>
                 <input type="email" id="email" name="email">
                 <br>
                 <label for="name">Enter your name:</label>
+                <br>
                 <input type="text" id="name" name="name">
                 <br>
             
                 <label for="password">Enter your password:</label>
+                <br>
                 <input type="password" id="password" name="password">
                 <br>
                 <input type="submit" value="Submit" id="Submit">
             </form>
+
+           <p>You can join us by filling out the form</p>
+
+           <div id="features">
+           <ol>
+            
+               <li>Premium Materials</li>
+               <li>Fast Shipping</li>
+               <li>Quality Assurance</li>
+           </ol></div>
         </aside>
 
 
-    <footer class="footer">
+    <footer class="footer"  id="contact">
          <ul>
         <li><a href="#">Privacy</a></li>
         <li> <a href="#">Terms</a></li>
